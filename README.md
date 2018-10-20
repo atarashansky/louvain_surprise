@@ -15,3 +15,5 @@ cluster_labels= louvain_surprise(nn,remove_self_loops=True,init = None)
 `init`: Initial partition. If `None`, each node starts off as its own community.
 
 returns `cluster_labels`: cluster assignments for each node
+
+Requirements: Numba and Numpy
