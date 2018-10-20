@@ -1,4 +1,4 @@
-# louvain_surprise
+# Louvain clustering using asymptotic surprise
 
 Python-only implementation based on this paper:
 
