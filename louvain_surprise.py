@@ -96,7 +96,7 @@ def louvain_surprise(nn, remove_self_loops=True, init = None):
         cluster_labels[ii] = i
     return cluster_labels
 
-@jit(nopython=False)
+@jit(nopython=True)
 def surprise(nn,mint,Mint,m,M,Q,cluster_labels,pairwise,num_nodes,num_cells,active_indices,eps=1e-5):       
     Qold = Q-1
     Qnew = Q
